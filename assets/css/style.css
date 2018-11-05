@@ -1,0 +1,255 @@
+body {
+    background-image: url(../images/background.png);
+  }
+  header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    border-bottom: #dddddd;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: #666666;
+    height: 60px;
+    width: 100%;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 8px;
+  }
+  h6 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    padding-top: 15px;
+  }
+  .peter {
+    height: 80px;
+    width: fit-content;
+    margin-left: 255px;
+    background-color: #4aaaa5;
+    position: relative;
+    top: 0px;
+  }
+  
+  .peter h1 {
+    font-family: serif;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    padding-top: 20px;
+  }
+  #nav ul {
+    list-style-type: none;
+    position: absolute;
+    right: 270px;
+    top: 18px;
+  }
+  #nav li {
+    display: inline;
+    padding-left: 22px;
+    vertical-align: middle;
+  }
+  #nav a {
+    text-decoration: none;
+    color: #777777;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+  }
+  .button {
+    padding-left: 22px;
+    border-left: #777777;
+    border-left-style: dotted;
+    border-left-width: 1px;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    background-color: #ffffff;
+    width: 960px;
+    padding: 25px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  #aboutme {
+    font-family: serif;
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #dddddd;
+  }
+  #headshot {
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 15px;
+  }
+  #biography {
+    font-family: Helvetica;
+    font-size: 17px;
+    color: #777777;
+  }
+  
+  #name {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  #email {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  #message {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #777777;
+  }
+  #submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+  }
+  
+  .container2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    background-color: #ffffff;
+    width: 960px;
+    height: 800px;
+    padding: 25px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 8px;
+    position: relative;
+  }
+  #dance {
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+  }
+  #basketball {
+    display: block;
+    position: absolute;
+    top: 145px;
+    right: 398px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+  }
+  #food {
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+  }
+  #music {
+    display: block;
+    position: absolute;
+    top: 350px;
+    right: 398px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+  }
+  #movie {
+    display: block;
+    position: absolute;
+    top: 550px;
+    left: 40px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+  }
+  .ptext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 5px;
+  }
+  #da {
+    height: 35px;
+    width: 203px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 255px;
+    left: 40px;
+  }
+  #fo {
+    height: 35px;
+    width: 203px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 460px;
+    left: 40px;
+  }
+  #mo {
+    height: 35px;
+    width: 203px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 660px;
+    left: 40px;
+  }
+  #ba {
+    height: 35px;
+    width: 203px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 255px;
+    right: 398px;
+  }
+  #mu {
+    height: 35px;
+    width: 203px;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 460px;
+    right: 398px;
+  }
+  
+  a:hover {
+    background-color: #4aaaa5;
+  }
+  #submit:hover {
+    background-color: #4aaaa5;
+  }
