@@ -253,3 +253,154 @@ body {
   #submit:hover {
     background-color: #4aaaa5;
   }
+@media screen and (max-width: 980px) {
+    header {
+      position: static;
+      height: 60px;
+    }
+    .peter {
+      margin-left: 10vw;
+      height: 60px;
+      line-height: 25px;
+    }
+    .peter h1 {
+      font-size: 20px;
+    }
+    .container {
+      width: 80vw;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+    .container2 {
+      width: 80vw;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+    footer {
+      position: static;
+    }
+    #basketball,
+    #ba,
+    #music,
+    #mu {
+      right: 20vw;
+    }
+  }
+@media screen and (max-width: 768px) {
+    header {
+      position: static;
+      height: 45px;
+    }
+    .peter {
+      margin-left: 4vw;
+      height: 45px;
+      line-height: 2px;
+    }
+    .peter h1 {
+      font-size: 20px;
+    }
+    #nav a {
+      font-size: 20px;
+    }
+    #nav ul {
+      right: 10vw;
+      top: 15px;
+    }
+    .container {
+      width: 80vw;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+    footer {
+      position: static;
+    }
+    .container2 {
+      width: 80vw;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+  }
+@media screen and (max-width: 640px) {
+    header {
+      position: static;
+      height: 40px;
+    }
+    .peter {
+      margin-left: 1vw;
+      height: 40px;
+      line-height: 5px;
+    }
+    .peter h1 {
+      font-size: 15px;
+      padding-left: 3vw;
+      padding-right: 3vw;
+    }
+    #nav a {
+      font-size: 12px;
+    }
+    #nav ul {
+      right: 6vw;
+      top: 12px;
+    }
+    .container {
+      width: 80vw;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+    .container2 {
+      width: 80vw;
+      height: 900px;
+      margin-top: 7vh;
+      margin-bottom: 2vh;
+    }
+    footer {
+      position: static;
+    }
+    #dance {
+      top: 120px;
+      margin-left: 12vw;
+    }
+    #da {
+      top: 230px;
+      margin-left: 12vw;
+    }
+    #basketball {
+      top: 280px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #ba {
+      top: 390px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #food {
+      top: 440px;
+      margin-left: 12vw;
+    }
+    #fo {
+      top: 550px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #music {
+      top: 600px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #mu {
+      top: 710px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #movie {
+      top: 760px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+    #mo {
+      top: 870px;
+      left: 40px;
+      margin-left: 12vw;
+    }
+  }
